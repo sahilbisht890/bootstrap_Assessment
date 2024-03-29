@@ -7,6 +7,16 @@
     display: none;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+/* img
+{
+    width: 100%;
+    height: 100%;
+} */
+
 .balooFont
 {
     font-family: "Baloo Bhai 2", sans-serif;
@@ -55,7 +65,7 @@ height: 100vh;
 
 .gap-6
 {
-    gap:4rem
+    gap:4.5rem
 }
 
 .me-6
@@ -65,10 +75,11 @@ height: 100vh;
 
 .design
 {
-    width: 90%;
+    width: 98%;
+    height: auto;
     bottom: -36%;
-    left: 4.5%;
-    z-index: 1
+    left: 1%;
+    z-index: 1%
 }
 
 .montfont
@@ -93,10 +104,78 @@ height: 100vh;
     font-size: 5.5rem !important;
 }
 
-/* .introPicture
+.lh-1mid 
 {
-     background-image: url('/Assests/images/designIntro.png');
-     background-repeat: no-repeat;
-     background-size: 90% auto;
-     background-position: top 0% left 0%;
-} */
+    line-height: 1.5rem;
+}
+
+
+.logo 
+{
+    width: 6rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.7rem;
+}
+
+.navbar-nav  a 
+{
+    font-size: 1.2rem;
+    font-weight: 800 !important;
+}
+
+.introSubtextContainer
+{
+    word-break: break-all;
+}
+
+.mt-mid5
+{
+    margin-top: 3.5rem;
+}
+
+.ls 
+{
+    letter-spacing: 3px;
+}
+.joinNowbtn
+{
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 0 1.5rem !important
+}
+.YogaIntroPage
+{
+    padding-bottom: 20%;
+    background-image: url(../images/introBottom.png);
+    background-repeat: no-repeat;
+    background-position: right -34% bottom -22rem;
+    background-size: 41% 72%;
+}
+.rotate-animation {
+    animation: rotateDesign 10s infinite linear; /* Animation properties */
+}
+
+@keyframes rotateDesign {
+    from {
+        transform: rotate(0deg); /* Initial rotation */
+    }
+    to {
+        transform: rotate(360deg); /* Final rotation */
+    }
+}
+
+.ChooseClassSubtext
+{
+    padding: 0 19%;
+    line-height: 2rem;
+}
+
+.bgDesignClass
+{
+    top:-13%;
+    left: 0%;
+    z-index: 1;
+}
+.w-md-30{
+    width: 30% !important;
+}
