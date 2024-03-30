@@ -9,6 +9,23 @@
         font-size: 14px;
      }
 
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+   /* For example: */
+   body {
+       font-size: 12px; /* Adjust font size for better readability on smaller screens */
+   }
+   .w-100,.introPicture,.introTextContent
+   {
+    width: 100% !important;
+   }
+
 }
 
 

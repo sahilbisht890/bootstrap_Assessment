@@ -1,14 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-::-webkit-scrollbar
-{
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar {
     display: none;
 }
 
-*{
+* {
     box-sizing: border-box;
+}
+
+.latofont {
+    font-family: "Lato", sans-serif;
 }
 
 /* img
@@ -17,64 +22,48 @@
     height: 100%;
 } */
 
-.balooFont
-{
+.balooFont {
     font-family: "Baloo Bhai 2", sans-serif;
 }
-.darkGreen
-{
+
+.darkGreen {
     color: #404a49 !important;
 }
 
-.lightGreenBg
-{
+.lightGreenBg {
     background-color: #509995
 }
 
-.lightGreenFont
-{
+.lightGreenFont {
     color: #509995;
 }
 
-.veryLightGreen
-{
+.veryLightGreen {
     background-color: #f2f9f4;
 }
 
-.body 
-{
-width: 100vw;
-height: 100vh;
+.body {
+    width: 100vw;
+    height: 100vh;
 }
 
-.w-10
-{
+.w-10 {
     width: 10%;
 }
 
-.w-90
-{
+.w-90 {
     width: 90%;
 }
 
-.YogaClassLogo
-{
+.YogaClassLogo {
     filter: brightness(94%);
 }
 
-
-.gap-6
-{
-    gap:4.5rem
-}
-
-.me-6
-{
+.me-6 {
     margin-right: 4rem;
 }
 
-.design
-{
+.design {
     width: 98%;
     height: auto;
     bottom: -36%;
@@ -82,100 +71,411 @@ height: 100vh;
     z-index: 1%
 }
 
-.montfont
-{
+.montfont {
     font-family: "Montserrat", sans-serif;
 
 }
 
-.YogaIntroPic
-{
- border-radius:50% ;
- border: 4px solid #b6d3cf;
+.YogaIntroPic {
+    border-radius: 50%;
+    border: 4px solid #b6d3cf;
 }
 
-.fw-boldest
-{
+.fw-boldest {
     font-weight: 900;
 }
 
-.display-1
-{
+.display-1 {
     font-size: 5.5rem !important;
 }
 
-.lh-1mid 
-{
+.lh-1mid {
     line-height: 1.5rem;
 }
 
 
-.logo 
-{
+.logo {
     width: 6rem;
     padding-bottom: 1.2rem;
     padding-top: 1.7rem;
 }
 
-.navbar-nav  a 
-{
+.navbar-nav a {
     font-size: 1.2rem;
     font-weight: 800 !important;
 }
 
-.introSubtextContainer
-{
+.introSubtextContainer {
     word-break: break-all;
 }
 
-.mt-mid5
-{
+.mt-mid5 {
     margin-top: 3.5rem;
 }
 
-.ls 
-{
+.ls {
     letter-spacing: 3px;
 }
-.joinNowbtn
-{
+
+.joinNowbtn {
     border-radius: 10px;
-    font-size: 1.1rem;
     padding: 0 1.5rem !important
 }
-.YogaIntroPage
-{
+
+.joinNowbtn:hover {
+    background-color: #f2f9f4 !important;
+    color: #509995 !important;
+    border: 2px solid black !important;
+    font-weight: 900 !important;
+}
+
+a:hover {
+    background-color: #c0dad6;
+}
+
+
+
+.YogaIntroPage {
     padding-bottom: 20%;
     background-image: url(../images/introBottom.png);
     background-repeat: no-repeat;
     background-position: right -34% bottom -22rem;
     background-size: 41% 72%;
 }
+
 .rotate-animation {
-    animation: rotateDesign 10s infinite linear; /* Animation properties */
+    animation: rotateDesign 10s infinite linear;
 }
 
 @keyframes rotateDesign {
     from {
-        transform: rotate(0deg); /* Initial rotation */
+        transform: rotate(0deg);
+        /* Initial rotation */
     }
+
     to {
-        transform: rotate(360deg); /* Final rotation */
+        transform: rotate(360deg);
+        /* Final rotation */
     }
 }
 
-.ChooseClassSubtext
-{
-    padding: 0 19%;
+.ChooseClassSubtext {
+    padding: 0 17%;
     line-height: 2rem;
+
 }
 
-.bgDesignClass
-{
-    top:-13%;
+.bgDesignClass {
+    top: -13%;
     left: 0%;
     z-index: 1;
 }
-.w-md-30{
-    width: 30% !important;
+
+.w-md-31 {
+    width: 31% !important;
 }
+
+.classImage>.class {
+    border-radius: 50%;
+}
+
+.box7 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box7 .class {
+    position: relative;
+    z-index: 2;
+    /* Ensure image appears above overlay */
+}
+
+.box7:after,
+.box7:before {
+    content: "";
+    width: 80%;
+    height: 100%;
+    background: rgba(11, 33, 47, 0.9);
+    position: absolute;
+    top: 0;
+    left: 10%;
+    opacity: 0;
+    border-radius: 50%;
+    /* Apply border-radius to create a round shape */
+    z-index: 3;
+    /* Ensure overlay appears below image */
+}
+
+.box7:hover:before {
+    opacity: 1;
+}
+
+.box7 .box-content {
+    width: 80%;
+    position: absolute;
+    bottom: -100%;
+    left: 10%;
+    transition: all 0.5s ease 0s;
+    z-index: 4;
+    /* Ensure content appears above overlay */
+    border-radius: 50%;
+}
+
+.box7:hover .box-content {
+    bottom: 30%;
+}
+
+.box7 .bookNowOverlay {
+    display: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 15%;
+    z-index: 5;
+}
+
+.bookNowOverlay:hover {
+    color: rgb(248, 245, 245);
+    background-color: #509995;
+    border: none
+}
+
+
+.chooseClassSection {
+    background-image: url(../images/introBottom.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right -34% top -17rem;
+    background-size: 41% 72%;
+
+}
+
+
+.statsCardContent {
+    padding: 22% 0%;
+    width: 18rem;
+}
+
+.statsCard {
+    border: 5px solid #509995 !important;
+}
+
+.fs-3mid {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.statsSection {
+    padding-bottom: 10% !important;
+    background-image: url(../images/statsDesign.png), url(../images/shape_17.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -35% left -5%, top;
+    background-size: 45% 76%, 100% 100%
+}
+
+.instructorContent,
+.newExperienceContent {
+    padding: 17% 6%;
+    word-break: break-all;
+}
+
+
+.readMoreInstructor {
+    padding: .8rem 5rem !important;
+}
+
+.newExperiencePic {
+    padding: 7% 6% 5% 6%;
+}
+
+.newExperienceSubtext,
+.instructorSubtext {
+    line-height: 2rem;
+}
+
+
+
+
+
+.instructorHeading {
+    animation: lights 5s 750ms linear infinite;
+}
+
+
+@keyframes lights {
+    0% {
+        color: hsl(231, 85%, 48%);
+        text-shadow:
+            0 0 1.5em hsla(320, 100%, 50%, 0.2),
+            0 0 0.5em hsla(320, 100%, 60%, 0.3),
+            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+        color: hsl(230, 87%, 49%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+        color: hsl(129, 97%, 53%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 90%, 0.5),
+            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+        color: hsl(33, 98%, 45%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+        color: hsl(326, 90%, 47%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+}
+
+
+
+
+
+.newExperienceHeading {
+
+    animation: textAnimate 5s infinite alternate;
+
+}
+
+@keyframes textAnimate {
+    0% {
+        color: #509995;
+        opacity: 1;
+    }
+
+    20% {
+        color: rgb(28, 232, 28);
+    }
+
+    40% {
+        color: rgb(211, 194, 10);
+    }
+
+    60% {
+        color: rgb(16, 146, 227);
+    }
+
+    100% {
+        color: hsla(189, 68%, 75%);
+        opacity: 1;
+    }
+}
+
+.box3 {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    position: relative;
+    overflow: hidden;
+}
+
+.box3 .box-content,
+.box3:after,
+.box3:before {
+    position: absolute;
+    left: 7%;
+    right: 7%;
+    transition: all .3s
+}
+
+.box3:after,
+.box3:before {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+    top: 10%;
+    bottom: 10%;
+    z-index: 1;
+    transform: scale(0, 1)
+}
+
+.box3:after {
+    top: 10.8%;
+    bottom: 10.8%;
+    transform: scale(1, 0)
+}
+
+.box3:hover:after,
+.box3:hover:before {
+    transform: scale(1);
+    animation: animate 1.5s
+}
+
+.box3:hover:before {
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff
+}
+
+.box:hover:after {
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    transition: all .3s
+}
+
+.box3:hover img {
+    transform: scale(1.2);
+    filter: blur(5px);
+    -moz-filter: blur(5px);
+    -webkit-filter: blur(5px)
+}
+
+.box3 .box-content {
+    padding: 30px 10px;
+    top: 10%;
+    bottom: 10%;
+    opacity: 0;
+    z-index: 2
+}
+
+.box3:hover .box-content {
+    box-shadow: 0 0 0 35px rgba(255, 255, 255, .3);
+    opacity: 1;
+    transition: all .3s
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes animate-hover {
+    0% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, .3)
+    }
+
+    50% {
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, .3)
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, .3)
+    }
+}
+

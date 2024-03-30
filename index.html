@@ -10,12 +10,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="./Assests/styles/style.css" class="stylesheets">
     <link rel="stylesheet" href="./Assests/styles/media.css" class="stylesheets">
 
 </head>
 
 <body>
+
 
     <section class="YogaIntroPage w-100 ps-3 veryLightGreen  ">
         <div class="IntroNavbar w-100 d-flex align-item-center">
@@ -26,7 +29,8 @@
                     <div class="container-fluid pe-0">
 
                         <div class="logo  px-2" style="background-color:#8fd8c5">
-                            <img src="./Assests/images/Logo.png" alt="YogaClassLogo" class="src YogaClassLogo">
+                            <img src="./Assests/images/Logo.png" alt="YogaClassLogo" class="src YogaClassLogo"
+                                width="100%" height="100%">
                         </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,19 +40,19 @@
                         <div class="collapse navbar-collapse float-end " id="navbarSupportedContent"
                             style="background-color: rgb(222 238 232);">
 
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-6 gap-6">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-6 gap-5">
                                 <li class="nav-item">
-                                    <a class="nav-link active balooFont  darkGreen" aria-current="page" href="#">
+                                    <a class="nav-link active balooFont px-3 darkGreen" aria-current="page" href="#">
                                         HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link balooFont   darkGreen" href="#">ABOUT US</a>
+                                    <a class="nav-link balooFont px-3  darkGreen" href="#">ABOUT US</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link balooFont  darkGreen" href="#">SERVICES</a>
+                                    <a class="nav-link balooFont px-3 darkGreen" href="#">SERVICES</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link balooFont darkGreen" href="#">CONTACT US</a>
+                                    <a class="nav-link balooFont px-3 darkGreen" href="#">CONTACT US</a>
                                 </li>
 
                             </ul>
@@ -61,7 +65,7 @@
 
         </div>
 
-        <div class="yogaClassContentIntro d-flex  py-md-5 mt-mid5 ps-md-5 mb-md-4 ms-4">
+        <div class="yogaClassContentIntro d-flex flex-md-row flex-column py-md-5 mt-mid5 ps-md-5 mb-md-4 ms-4">
             <div class="introPicture w-50 text-center h-auto position-relative my-auto ">
 
                 <img src="./Assests/images/designIntro.png" alt="Design"
@@ -72,7 +76,7 @@
 
             </div>
 
-            <div class="introTextContent w-50 pt-md-4 px-md-4">
+            <div class="introTextContent w-50 pt-md-4 px-md-4 px-0">
                 <div class="introHeading pt-md-5 pt-2">
                     <h1 class="balooFont fw-boldest display-1 lightGreenFont pt-4 mb-0">
                         YOGA CLASS
@@ -88,7 +92,7 @@
 
                 <div class="joinNowbtnContainer text-center">
                     <button
-                        class="btn border balooFont text-light lightGreenBg ls joinNowbtn text-center fw-medium ">JOIN
+                        class="btn border latofont text-light lightGreenBg ls joinNowbtn text-center fw-medium ">JOIN
                         NOW</button>
                 </div>
             </div>
@@ -96,74 +100,91 @@
 
     </section>
 
-    <section class="chooseClassSection text-center lightGreenBg py-5 w-100 px-5">
+    <section class="chooseClassSection text-center lightGreenBg py-5 w-100 px-5 position-relative">
         <div class="chooseClassTop py-md-5 py-0 px-md-5 px-0 w-100">
             <h1 class="display-3 text-light balooFont fw-boldest">CHOOSE CLASS</h1>
-            <p class="ChooseClassSubtext text-light fs-3  montfont pt-3 w-100">
+            <p class="ChooseClassSubtext text-light fs-3  montfont pt-3 w-100 d-md-block d-none">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, earum dolor obcaecati natus
                 minus.
             </p>
 
         </div>
 
-        <div class="typesOfClass d-flex w-100 justify-content-between px-5">
-            <div class="class w-md-30  w-100">
+        <div class="typesOfClass d-flex flex-md-row flex-column w-100 justify-content-between  px-md-5 px-0">
+            <div class="class w-md-31  w-100 mt-md-0 mt-5">
                 <div class="classImage position-relative my-auto w-100">
-                    <img src="./Assests/images/newbiePosture.png" alt="YogaPosture Newbie Class "
-                        class="class position-relative z-2" width="80%" height="auto">
-                    <img src="./Assests/images/bgDesignClasss.png" alt="BackgroundDesign"
-                        class="bgDesignClass position-absolute" width="100%" height="auto">
-
+                    <div class="box7 text-center">
+                        <img src="./Assests/images/newbiePosture.png" alt="YogaPosture NewBie Class"
+                            class="class position-relative z-2" width="80%" height="auto" />
+                        <div class="box-content ">
+                            <button class="bookNowOverlay balooFont btn btn-danger mt-5">BOOK NOW</button>
+                            <h5 class="text-light mt-3">Fee : $7 a day</h5>
+                        </div>
+                    </div>
+                    <img src="./Assests/images/bgclass.png" alt="BackgroundDesign"
+                        class="bgDesignClass position-absolute rotate-animation" width="100%" height="auto" />
                 </div>
                 <div class="typeOfClassContent w-100 mt-4">
                     <div class="typeOfClassHeading text-light pt-2 ">
                         <h1 class="newbieClass balooFont fw-bolder fs-2 "> NEWBIE CLASS</h1>
                     </div>
 
-                    <div class="subtextClass">
-                        <p class="newbieClassSubtext fs-5 montfont text-light">
+                    <div class="subtextClass mt-3">
+                        <p class="newbieClassSubtext fs-5 montfont text-light lh-1mid">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
                 </div>
 
             </div>
-            <div class="class w-md-30  w-100">
+            <div class="class w-md-31  w-100 mt-md-0 mt-5">
+                <div class="classImage position-relative my-auto w-100 ">
+                    <div class="box7 text-center">
+                        <img src="./Assests/images/advancedClass.png" alt="YogaPosture Advanced Class"
+                            class="class position-relative z-2" width="80%" height="auto" />
+                        <div class="box-content ">
+                            <button class="bookNowOverlay balooFont btn btn-danger mt-5">BOOK NOW</button>
+                            <h5 class="text-light mt-3">Fee : $10 a day</h5>
+                        </div>
+                    </div>
+                    <img src="./Assests/images/bgclass.png" alt="BackgroundDesign"
+                        class="bgDesignClass position-absolute rotate-animation" width="100%" height="auto" />
+                </div>
+
+                <div class="typeOfClassContent w-100 mt-4">
+                    <div class="typeOfClassHeading text-light pt-2 ">
+                        <h1 class="newbieClass balooFont fw-bolder fs-2 "> ADVANCED CLASS</h1>
+                    </div>
+
+                    <div class="subtextClass mt-3">
+                        <p class="newbieClassSubtext fs-5 montfont text-light lh-1mid">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="class w-md-31  w-100 mt-md-0 mt-5">
                 <div class="classImage position-relative my-auto w-100">
-                    <img src="./Assests/images/newbiePosture.png" alt="YogaPosture Newbie Class "
-                        class="class position-relative z-2" width="80%" height="auto">
-                    <img src="./Assests/images/bgDesignClasss.png" alt="BackgroundDesign"
-                        class="bgDesignClass position-absolute" width="100%" height="auto">
+                    <div class="box7 text-center">
+                        <img src="./Assests/images/ExpertClass.png" alt="YogaPosture Expert Class"
+                            class="class position-relative z-2" width="80%" height="auto" />
+                        <div class="box-content ">
+                            <button class="bookNowOverlay balooFont btn btn-danger mt-5">BOOK NOW</button>
+                            <h5 class="text-light mt-3">Fee : $15 a day</h5>
+                        </div>
+                    </div>
+                    <img src="./Assests/images/bgclass.png" alt="BackgroundDesign"
+                        class="bgDesignClass position-absolute rotate-animation" width="100%" height="auto" />
 
                 </div>
                 <div class="typeOfClassContent w-100 mt-4">
                     <div class="typeOfClassHeading text-light pt-2 ">
-                        <h1 class="newbieClass balooFont fw-bolder fs-2 "> NEWBIE CLASS</h1>
+                        <h1 class="newbieClass balooFont fw-bolder fs-2 ">EXPERT CLASS</h1>
                     </div>
 
-                    <div class="subtextClass">
-                        <p class="newbieClassSubtext fs-5 montfont text-light">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="class w-md-30  w-100">
-                <div class="classImage position-relative my-auto w-100">
-                    <img src="./Assests/images/newbiePosture.png" alt="YogaPosture Newbie Class "
-                        class="class position-relative z-2" width="80%" height="auto">
-                    <img src="./Assests/images/bgDesignClasss.png" alt="BackgroundDesign"
-                        class="bgDesignClass position-absolute" width="100%" height="auto">
-
-                </div>
-                <div class="typeOfClassContent w-100 mt-4">
-                    <div class="typeOfClassHeading text-light pt-2 ">
-                        <h1 class="newbieClass balooFont fw-bolder fs-2 "> NEWBIE CLASS</h1>
-                    </div>
-
-                    <div class="subtextClass">
-                        <p class="newbieClassSubtext fs-5 montfont text-light">
+                    <div class="subtextClass mt-3">
+                        <p class="newbieClassSubtext fs-5 montfont text-light lh-1mid ">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
@@ -171,10 +192,126 @@
 
             </div>
 
+        </div>
 
 
-                </div>
     </section>
+
+
+    <section class="statsSection text-center py-5 px-5 w-100 ">
+
+        <div class="statsTopSections py-md-4 py-0 px-md-3 px-0 w-100 mb-5">
+            <h1 class="display-3 lightGreenFont balooFont fw-boldest">OUR STATS</h1>
+            <p class="ChooseClassSubtext lightGreenFont fs-3  montfont pt-3 w-100 d-md-block d-none mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, earum dolor obcaecati natus
+                minus.
+            </p>
+
+        </div>
+
+        <div
+            class="statsContainer container-fluid d-flex flex-md-row flex-column justify-content-between w-100 px-5 my-5  ">
+
+            <div class="statsCard rounded-circle d-flex flex-column align-items-center justify-content-center">
+                <div class="statsCardContent text-center">
+                    <div class="statHeading mb-2 mt-4">
+                        <h1 class="fw-bolder balooFont display-4 lightGreenFont">123</h1>
+                    </div>
+                    <div class="subtextStat fs-3mid montfont lightGreenFont lh-1mid w-75 mx-auto">Lorem ipsum dolor sit
+                        amet</div>
+                </div>
+            </div>
+
+            <div class="statsCard rounded-circle d-flex flex-column align-items-center justify-content-center">
+                <div class="statsCardContent text-center">
+                    <div class="statHeading mb-2 mt-4">
+                        <h1 class="fw-bolder balooFont display-4 lightGreenFont">123</h1>
+                    </div>
+                    <div class="subtextStat fs-3mid montfont lightGreenFont lh-1mid w-75 mx-auto">Lorem ipsum dolor sit
+                        amet</div>
+                </div>
+            </div>
+
+            <div class="statsCard rounded-circle d-flex flex-column align-items-center justify-content-center">
+                <div class="statsCardContent text-center">
+                    <div class="statHeading mb-2 mt-4">
+                        <h1 class="fw-bolder balooFont display-4 lightGreenFont">123</h1>
+                    </div>
+                    <div class="subtextStat fs-3mid montfont lightGreenFont lh-1mid w-75 mx-auto">Lorem ipsum dolor sit
+                        amet</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="instructorContainer">
+
+        <div class="row g-0">
+            <div class="instructorContent col-6 lightGreenBg pe-5">
+
+                <h1 class="instructorHeading display-3 text-light balooFont fw-boldest">BEST
+                    <span class="d-md-block"></span>
+                    INSTRUCTOR
+                </h1>
+                <p class="instructorSubtext text-light fs-3  montfont pt-3 w-100 d-md-block mb-5 d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, earum dolor obcaecati
+                    natus
+                    minus.
+                </p>
+
+                <button class="readMoreInstructor text-center lightGreenFont  fw-bolder fs-5 rounded border border-0 bg-light balooFont">READ MORE</button>
+            </div>
+
+            <div class="instructorPic col-6 box3">
+
+                <img src="./Assests/images/instPic.png" alt="Instructor Pic" class="src instructorImg" width="100%" height="100%">
+                <div class="box-content">
+                    <h3 class="title fs-1 fw-boldest balooFont mt-5 text-center ">Meet Our Yoga Instructor</h3>
+                    <p class="description fs-4  fw-medium text-justify mt-5" style="color: rgb(88 49 23);">
+                        Discover the heart of our yoga studio through our experienced instructors. With years of expertise, they bring passion and dedication to every class, guiding you towards physical and mental well-being
+                    </p>
+  
+                </div> 
+        
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="newExperienceContainer">
+
+        <div class="row g-0 ">
+            <div class="newExperiencePic col-6">
+
+                <img src="./Assests/images/newExperiencePic.png" alt="New Experience Pic" class="src instructorImg" width="100%" height="100%">
+
+            </div>
+
+            <div class="newExperienceContent  col-6 pe-5">
+
+                <h1 class="newExperienceHeading  display-3 lightGreenFont balooFont fw-boldest">NEW
+                    <span class="d-md-block"></span>
+                    EXPERIENCE
+                </h1>
+                <p class="newExperienceSubtext  fs-3  lightGreenFont montfont pt-3 w-100 mb-5 d-md-block d-none">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, earum dolor obcaecati
+                    natus
+                    minus.
+                </p>
+
+                <button class="readMoreInstructor text-center lightGreenBg fw-bolder fs-5 rounded border border-0 text-light balooFont">READ MORE</button>
+            </div>
+        </div>
+
+
+    </section>
+
 
 </body>
 
