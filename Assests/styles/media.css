@@ -1,17 +1,50 @@
 
-  
+
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
+  and (max-device-width: 1020px) {
     
      html 
      {
-        font-size: 14px;
+        font-size: 13px;
      }
 
+     .updateContainer
+     {
+      padding: 6% 16% !important;
+     }
+     .statsContainer,.typesOfClass,.cardHeading
+     {
+      padding: 0 !important;
+     }
 
+     .introHeading > h1 
+     {
+      font-size: 4rem !important;
+     }
+
+   .pricingCard
+   {
+      width: 32.5% !important;
+   }
+     
+   .statsSection,.pricingContainer,.yogaClassContentIntro
+   {
+      padding: 5% 2% !important;
+   }
+ 
+}
+
+@media only screen and (device-width: 1024px) {
+
+   html 
+   {
+      font-size: 13.5px;
+   }
 
 }
+
+
 
 
 
@@ -21,11 +54,134 @@
    body {
        font-size: 12px; /* Adjust font size for better readability on smaller screens */
    }
-   .w-100,.introPicture,.introTextContent
+   .w-100,.introPicture,.introTextContent,.subscribe
    {
     width: 100% !important;
    }
 
+   .statHeading > h1
+   {
+      font-size: 5rem;
+   }
+
+   .newExperienceContent,.instructorContent,.yogaClassContentIntro,.container-fluid
+   {
+      padding: 0 !important;
+   }
+
+   .yogaClassContentIntro
+   {
+      margin: 0 !important;
+   }
+
+   .footerContent
+   {
+         padding-top: 5%;
+   }
+   .updateContainer, body > section ,.instructorHeading,.statsSection
+
+   {
+      padding: 5% 5%;
+   }
+
+   .subtextTrainer
+   {
+      font-size: 1rem;
+   }
+
+   .cardHeading > h1 
+
+   {
+      font-size: 1.5rem !important;
+   }
+  
+
+   .updateHeading > h1,.newbieClass,.pricingAmount
+   {
+      font-size: 2rem !important;
+   }
+
+   .subtextTrainer,.introSubtext
+   {
+      text-align: justify !important;
+      word-break: break-all !important;
+   }
+   .backgroundDesignDevandra {
+      top: -14%;
+      left: 23%;
+   }
+
+   .devandraPic
+   {
+      width: 42% !important;
+   }
+
+   .backgroundDesignDevandra
+   {
+      width: 54% !important;
+   }
+   .newExperienceContainer,.statsSection,.chooseClassSection,.YogaIntroPage
+   {
+      background-image: none;
+   }
+
+   .instructorContent,.newExperienceContainer
+   {
+      text-align: center;
+   }
+   .instructorContainer,.instructorContent
+   {
+      
+      background-image: linear-gradient(to bottom right,#509995,#8fd5d2);
+
+   }
+   .statsCardContent {
+      padding: 23% 0%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+      border-radius: 50%;
+     font-weight: 600;
+   }
+   .pricingCard
+   {
+      box-shadow: 2px 2px 3px rgb(59, 52, 52); /* Subtle shadow */
+   }
+   .statsSection {
+      background-image: url('../images/stats.avif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+  }
+  
+  .mt-mid5
+  {
+   padding-top: 18% !important;
+  }
+
+  .display-1
+  {
+   font-size: 3.5rem !important;
+   text-align: center;
+   margin-top: 10%;
+  }
+
+  .logo {
+   width: 6rem;
+   padding-bottom: 0.5rem;
+   padding-top: 0.7rem
+
+}
+.navbar-collapse
+{
+   background-color: #f2f9f4 !important;
+
+}
+
+.navbar-collapse  a 
+{
+color: #509995 !important;
+width: 100%;
 }
 
 
+}

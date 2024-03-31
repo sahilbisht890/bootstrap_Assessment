@@ -16,12 +16,6 @@
     font-family: "Lato", sans-serif;
 }
 
-/* img
-{
-    width: 100%;
-    height: 100%;
-} */
-
 .balooFont {
     font-family: "Baloo Bhai 2", sans-serif;
 }
@@ -47,12 +41,13 @@
     height: 100vh;
 }
 
-.w-10 {
-    width: 10%;
+.w-md-30{
+    width: 30% !important;
 }
 
-.w-90 {
-    width: 90%;
+.pt-4mid
+{
+    padding-top: 2rem;
 }
 
 .YogaClassLogo {
@@ -133,19 +128,20 @@ a:hover {
     background-color: #c0dad6;
 }
 
-
-
 .YogaIntroPage {
     padding-bottom: 20%;
     background-image: url(../images/introBottom.png);
     background-repeat: no-repeat;
-    background-position: right -34% bottom -22rem;
-    background-size: 41% 72%;
+    background-position: right -50% bottom -22rem;
+    background-size: 50% 72%;
 }
 
+
+
+/* 
 .rotate-animation {
-    animation: rotateDesign 10s infinite linear;
-}
+    animation: rotateDesign 20s infinite linear;
+} */
 
 @keyframes rotateDesign {
     from {
@@ -159,7 +155,8 @@ a:hover {
     }
 }
 
-.ChooseClassSubtext {
+.ChooseClassSubtext 
+{
     padding: 0 17%;
     line-height: 2rem;
 
@@ -243,11 +240,27 @@ a:hover {
 
 .chooseClassSection {
     background-image: url(../images/introBottom.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: right -34% top -17rem;
-    background-size: 41% 72%;
+    background-repeat: no-repeat;
+    background-position: right -50% top -17rem;
+    background-size: 50% 72%;
 
 }
+.newExperienceContainer,.pricingContainer
+{
+    background-image: url(../images/shape_11.png);
+    background-repeat: no-repeat;
+    background-position: right 0% top 66%;
+    background-size: 35% 118%;
+}
+
+.pricingContainer
+{
+    background-position: right 0% top 622%;
+
+}
+
+
+
 
 
 .statsCardContent {
@@ -283,7 +296,8 @@ a:hover {
     padding: .8rem 5rem !important;
 }
 
-.newExperiencePic {
+.newExperiencePic ,.pricingContainer
+{
     padding: 7% 6% 5% 6%;
 }
 
@@ -477,5 +491,56 @@ a:hover {
     100% {
         box-shadow: 0 0 0 0 rgba(255, 255, 255, .3)
     }
+}
+
+.starLogoPic
+{
+    filter: brightness(97%);
+}
+
+.backgroundDesignDevandra
+{
+    top: -12%;
+    left: 35%;
+}
+
+.aboutTrainerDevandera
+{
+    padding: 6% 7% 10% 7%;
+}
+
+.aboutTrainerDevandera
+{
+    background-image: url(../images/devandrabg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.updateContainer
+{
+    padding: 5% 20% 11% 20%;
+}
+
+input:focus
+{
+    border: none !important;
+}
+.subscribe button{
+    background-color: rgb(222 238 232);
+
+}
+
+.updateHeading > p,.footerCardTextOne
+{
+    word-break: break-all;
+}
+
+.titleHere
+{
+    width: 40%;
+}
+.footerContent
+{
+    padding-top: 5rem;
 }
 
