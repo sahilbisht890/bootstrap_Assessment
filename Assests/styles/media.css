@@ -85,14 +85,10 @@
       margin: 0 !important;
    }
 
-   .footerContent
-   {
-         padding-top: 5%;
-   }
-   .updateContainer, body > section ,.instructorHeading,.statsSection
+   .updateContainer, body > section ,.instructorHeading,.statsSection,.footerContainer
 
    {
-      padding: 5% 5%;
+      padding: 5% 5% !important;
    }
 
    .subtextTrainer
