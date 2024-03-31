@@ -136,25 +136,6 @@ a:hover {
     background-size: 50% 72%;
 }
 
-
-
-/* 
-.rotate-animation {
-    animation: rotateDesign 20s infinite linear;
-} */
-
-@keyframes rotateDesign {
-    from {
-        transform: rotate(0deg);
-        /* Initial rotation */
-    }
-
-    to {
-        transform: rotate(360deg);
-        /* Final rotation */
-    }
-}
-
 .ChooseClassSubtext 
 {
     padding: 0 17%;
@@ -175,68 +156,12 @@ a:hover {
 .classImage>.class {
     border-radius: 50%;
 }
-
-.box7 {
-    position: relative;
-    overflow: hidden;
+.email:focus
+{
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
-
-.box7 .class {
-    position: relative;
-    z-index: 2;
-    /* Ensure image appears above overlay */
-}
-
-.box7:after,
-.box7:before {
-    content: "";
-    width: 80%;
-    height: 100%;
-    background: rgba(11, 33, 47, 0.9);
-    position: absolute;
-    top: 0;
-    left: 10%;
-    opacity: 0;
-    border-radius: 50%;
-    /* Apply border-radius to create a round shape */
-    z-index: 3;
-    /* Ensure overlay appears below image */
-}
-
-.box7:hover:before {
-    opacity: 1;
-}
-
-.box7 .box-content {
-    width: 80%;
-    position: absolute;
-    bottom: -100%;
-    left: 10%;
-    transition: all 0.5s ease 0s;
-    z-index: 4;
-    /* Ensure content appears above overlay */
-    border-radius: 50%;
-}
-
-.box7:hover .box-content {
-    bottom: 30%;
-}
-
-.box7 .bookNowOverlay {
-    display: relative;
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-    margin: 0 15%;
-    z-index: 5;
-}
-
-.bookNowOverlay:hover {
-    color: rgb(248, 245, 245);
-    background-color: #509995;
-    border: none
-}
-
 
 .chooseClassSection {
     background-image: url(../images/introBottom.png);
@@ -258,10 +183,6 @@ a:hover {
     background-position: right 0% top 622%;
 
 }
-
-
-
-
 
 .statsCardContent {
     padding: 22% 0%;
@@ -285,8 +206,7 @@ a:hover {
     background-size: 45% 76%, 100% 100%
 }
 
-.instructorContent,
-.newExperienceContent {
+.instructorContent,.newExperienceContent {
     padding: 17% 6%;
     word-break: break-all;
 }
@@ -301,101 +221,201 @@ a:hover {
     padding: 7% 6% 5% 6%;
 }
 
-.newExperienceSubtext,
-.instructorSubtext {
+.newExperienceSubtext,.instructorSubtext {
     line-height: 2rem;
 }
 
-
-
-
-
-.instructorHeading {
-    animation: lights 5s 750ms linear infinite;
+.starLogoPic
+{
+    filter: brightness(97%);
 }
 
-
-@keyframes lights {
-    0% {
-        color: hsl(231, 85%, 48%);
-        text-shadow:
-            0 0 1.5em hsla(320, 100%, 50%, 0.2),
-            0 0 0.5em hsla(320, 100%, 60%, 0.3),
-            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-    }
-
-    30% {
-        color: hsl(230, 87%, 49%);
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 60%, 0.5),
-            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-
-    40% {
-        color: hsl(129, 97%, 53%);
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 90%, 0.5),
-            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
-            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
-    }
-
-    70% {
-        color: hsl(33, 98%, 45%);
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.5),
-            0 0 0.125em hsla(320, 100%, 60%, 0.5),
-            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
-            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
-    }
-
-    100% {
-        color: hsl(326, 90%, 47%);
-        text-shadow:
-            0 0 1em hsla(320, 100%, 50%, 0.2),
-            0 0 0.125em hsla(320, 100%, 60%, 0.3),
-            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
-            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
-    }
-
+.backgroundDesignDevandra
+{
+    top: -12%;
+    left: 35%;
 }
 
-
-
-
-
-.newExperienceHeading {
-
-    animation: textAnimate 5s infinite alternate;
-
+.aboutTrainerDevandera
+{
+    padding: 6% 7% 10% 7%;
 }
 
-@keyframes textAnimate {
-    0% {
-        color: #509995;
-        opacity: 1;
-    }
-
-    20% {
-        color: rgb(28, 232, 28);
-    }
-
-    40% {
-        color: rgb(211, 194, 10);
-    }
-
-    60% {
-        color: rgb(16, 146, 227);
-    }
-
-    100% {
-        color: hsla(189, 68%, 75%);
-        opacity: 1;
-    }
+.aboutTrainerDevandera
+{
+    background-image: url(../images/devandrabg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+.updateContainer
+{
+    padding: 5% 20% 11% 20%;
+}
+
+input:focus
+{
+    border: none !important;
+}
+.subscribe button{
+    background-color: rgb(222 238 232);
+}
+
+.updateHeading > p,.footerCardTextOne
+{
+    word-break: break-all;
+}
+
+.titleHere
+{
+    width: 40%;
+}
+.footerContent
+{
+    padding-top: 5rem;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+
+/* Animation Effects  */
+
+
+/* Pricing Card moving effect */
+
+.pricingCard {
+    -ms-transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+ }
+ .pricingCard:hover {
+     -ms-transform: rotate(15deg); 
+     -webkit-transform: rotate(15deg);
+     transform: rotate(15deg);
+ }
+
+
+ /* Zooming effect on the Image New Experience */
+
+ .newExperiencePic img {
+    transition: 1s ease;
+    }
+    
+    .newExperiencePic img:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease;
+    }
+
+    
+    /* Brightning Effects on the Cards */
+  
+      .statsCard {
+        position: relative; 
+        transition: .5s;
+      }
+      
+      .statsCard::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #131311;
+        transition: .5s;
+        transform: scale(.9);
+        z-index: -1;
+      }
+      
+      .statsCard:hover::before {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 15px  #7e771e;
+      }
+      
+      .statsCard:hover {
+        color: #7e771e;
+        box-shadow: 0 0 15px  #7e771e;
+        text-shadow: 0 0 15px  #7e771e;
+      }
+
+
+      /* Dropping Effects for Heading */
+
+      .yogaClass span {
+        animation: drop 0.4s linear forwards;
+        opacity: 0;
+
+      }
+      
+      .yogaClass span:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      
+      .yogaClass span:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+      
+      .yogaClass span:nth-child(4) {
+        animation-delay: 0.6s;
+      }
+      
+      .yogaClass span:nth-child(5) {
+        animation-delay: 0.8s;
+      }
+      
+      .yogaClass span:nth-child(6) {
+        animation-delay: 1s;
+      }
+      
+      .yogaClass span:nth-child(7) {
+        animation-delay: 1.2s;
+      }
+      
+      .yogaClass span:nth-child(8) {
+        animation-delay: 1.4s;
+      }
+      
+      .yogaClass span:nth-child(9) {
+        animation-delay: 1.6s;
+      }
+      
+      .yogaClass span:nth-child(10) {
+        animation-delay: 1.8s;
+      }
+      
+      @keyframes  drop {
+        0% {
+          transform: translateY(-200px) scaleY(0.9);
+        }
+        5% {
+          opacity: 0.7;
+        }
+        50% {
+          transform: translateY(0px) scaleY(1);
+          opacity: 1;
+        }
+        65% {
+          transform: translateY(-17px) scaleY(0.9);
+        }
+        75% {
+          transform: translateY(-22px) scaleY(0.9);
+        }
+        100% {
+          transform: translateY(0px) scaleY(1);
+          opacity: 1;
+        }
+      }
+
+
+/* Overlay Effect on the Class Section */
+
 
 .box3 {
     box-shadow: 0 0 3px rgba(0, 0, 0, .3);
@@ -493,54 +513,139 @@ a:hover {
     }
 }
 
-.starLogoPic
-{
-    filter: brightness(97%);
+/* Instructore Heading Lights Effect */
+
+.instructorHeading {
+    animation: lights 5s 750ms linear infinite;
 }
 
-.backgroundDesignDevandra
-{
-    top: -12%;
-    left: 35%;
+
+@keyframes lights {
+    0% {
+        color: hsl(231, 85%, 48%);
+        text-shadow:0 0 1.5em hsla(320, 100%, 50%, 0.2),0 0 0.5em hsla(320, 100%, 60%, 0.3),-1em -0.125em 0.5em hsla(40, 100%, 60%, 0),1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+        color: hsl(230, 87%, 49%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),0 0 0.125em hsla(320, 100%, 60%, 0.5), -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2), 0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+        color: hsl(129, 97%, 53%);
+        text-shadow:0 0 1em hsla(320, 100%, 50%, 0.5), 0 0 0.125em hsla(320, 100%, 90%, 0.5), -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+        color: hsl(33, 98%, 45%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),0 0 0.125em hsla(320, 100%, 60%, 0.5),0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2), -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+        color: hsl(326, 90%, 47%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),0 0 0.125em hsla(320, 100%, 60%, 0.3),1em -0.125em 0.5em hsla(40, 100%, 60%, 0),-1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
 }
 
-.aboutTrainerDevandera
-{
-    padding: 6% 7% 10% 7%;
+/* Rotation Effects */
+.rotate-animation {
+    animation: rotateDesign 20s infinite linear; /* Specify linear timing function for smoother rotation */
 }
 
-.aboutTrainerDevandera
-{
-    background-image: url(../images/devandrabg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+@keyframes rotateDesign {
+    from {
+        transform: rotate(0deg); /* Initial rotation */
+    }
+
+    to {
+        transform: rotate(360deg); /* Final rotation */
+    }
 }
 
-.updateContainer
-{
-    padding: 5% 20% 11% 20%;
+
+/* OverLay effects */
+
+
+.box7 {
+    position: relative;
+    overflow: hidden;
 }
 
-input:focus
-{
-    border: none !important;
-}
-.subscribe button{
-    background-color: rgb(222 238 232);
-
+.box7 .class {
+    position: relative;
+    z-index: 2;
 }
 
-.updateHeading > p,.footerCardTextOne
-{
-    word-break: break-all;
+.box7:after,
+.box7:before {
+    content: "";
+    width: 80%;
+    height: 100%;
+    background: rgba(11, 33, 47, 0.9);
+    position: absolute;
+    top: 0;
+    left: 10%;
+    opacity: 0;
+    border-radius: 50%;
+    z-index: 3;
 }
 
-.titleHere
-{
-    width: 40%;
-}
-.footerContent
-{
-    padding-top: 5rem;
+.box7:hover:before {
+    opacity: 1;
 }
 
+.box7 .box-content {
+    width: 80%;
+    position: absolute;
+    bottom: -100%;
+    left: 10%;
+    transition: all 0.5s ease 0s;
+    z-index: 4;
+    border-radius: 50%;
+}
+
+.box7:hover .box-content {
+    bottom: 30%;
+}
+
+.box7 .bookNowOverlay {
+    display: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 15%;
+    z-index: 5;
+}
+
+.bookNowOverlay:hover {
+    color: rgb(248, 245, 245);
+    background-color: #509995;
+    border: none
+}
+
+/* Button Linear Gradient Effects */
+
+.readMoreInstructor,.subscribe button {
+    transition: all 0.3s;
+}
+
+.readMoreInstructor:hover,.subscribe button:hover{
+    background-image: linear-gradient(to right, #0e2826, #1e6b07);  
+    color:white;
+    border-radius: 50px !important;
+}
+
+.registerNow {
+    transition: all 0.3s;
+}
+
+.registerNow:hover {
+    background-image: linear-gradient(to right,  #1e6b07,#0e2826);  
+    color:white;
+    border-radius: 50px !important;
+
+}

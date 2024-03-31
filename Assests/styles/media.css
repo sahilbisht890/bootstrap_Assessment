@@ -3,12 +3,23 @@
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1020px) {
+
+
     
      html 
      {
         font-size: 13px;
      }
 
+     .droppingEffect
+     {
+      display: none !important;
+     }
+
+     .yogaClassWeb
+     {
+      display: block !important;
+     }
      .updateContainer
      {
       padding: 6% 16% !important;
@@ -54,7 +65,7 @@
    body {
        font-size: 12px; /* Adjust font size for better readability on smaller screens */
    }
-   .w-100,.introPicture,.introTextContent,.subscribe
+   .w-100,.introPicture,.introTextContent,.subscribe,.pricingCard
    {
     width: 100% !important;
    }
@@ -101,7 +112,7 @@
       font-size: 2rem !important;
    }
 
-   .subtextTrainer,.introSubtext
+   .subtextTrainer,.introSubtext,.instructorSubtext,.newExperienceSubtext
    {
       text-align: justify !important;
       word-break: break-all !important;
@@ -147,7 +158,7 @@
       box-shadow: 2px 2px 3px rgb(59, 52, 52); /* Subtle shadow */
    }
    .statsSection {
-      background-image: url('../images/stats.avif');
+      background-image: url('../images/newExperiencePic.png');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top;
@@ -181,6 +192,25 @@
 {
 color: #509995 !important;
 width: 100%;
+}
+
+.container-fluid 
+{
+   padding-bottom: 5% !important;
+}
+
+.rotate-animation,.instructorHeading
+{
+   animation: none;
+}
+.pricingCard:hover
+{
+ transform: none;
+}
+
+.joinNowbtn
+{
+   padding: 2% 6% !important;
 }
 
 
