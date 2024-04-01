@@ -656,11 +656,29 @@
                 placeholder="Your Email" style="width: 80%;">
 <!-- subscribe button -->
             <button
-                class="btn border-0 veryLightGreen fs-5 px-md-5 px-3 rounded-pill fw-boldest lightGreenFont balooFont ">Subscribe</button>
+                class="btn border-0 veryLightGreen fs-5 px-md-5 px-3 rounded-pill fw-boldest lightGreenFont balooFont " data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</button>
         </div>
 
 
     </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Thanks for Subscribing!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>You will now receive updates and news about our yoga classes and events.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- This section contains the footer of the website -->
     <section class="container-fluid veryLightGreen px-md-5 pt-md-5 pb-5 pt-2  px-2 w-100 footerContainer ">
 
