@@ -53,6 +53,18 @@
       font-size: 13.5px;
    }
 
+   .droppingEffect
+   {
+    display: none !important;
+   }
+
+   .yogaClassWeb
+   {
+    display: block !important;
+   }
+
+
+
 }
 
 
